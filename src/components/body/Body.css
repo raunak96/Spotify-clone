@@ -1,0 +1,86 @@
+.body {
+    flex: 0.86;
+    overflow-y: scroll;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.5)),
+        to(rgba(0, 0, 0, 1))
+    );
+    background-image: -webkit-gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(rgba(0, 0, 0, 0.5)),
+        to(rgba(0, 0, 0, 1))
+    );
+    background-color: rgba(108, 104, 137);
+    height: 100vh;
+    color: white;
+}
+
+.banner {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(transparent),
+        to(rgba(0, 0, 0, 0.5))
+    );
+    background-image: -webkit-gradient(
+        linear,
+        0% 0%,
+        0% 100%,
+        from(transparent),
+        to(rgba(0, 0, 0, 0.5))
+    );
+    background-color: rgb(108, 104, 137);
+
+    padding: 32px;
+}
+
+.body__info {
+    display: flex;
+    align-items: flex-end;
+}
+.body__info > img {
+    height: 15vw;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText {
+    flex: 1;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+
+.body__infoText > h2 {
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+.body__infoText > p {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+.body__songs {
+    padding: 20px 32px;
+}
+.body__icons {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: inherit;
+}
+.body__icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+.body__shuffle {
+    font-size: 56px !important;
+    color: rgb(29, 185, 84);
+}
+.body__shuffle:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}
